@@ -1,0 +1,25 @@
+###
+get http://localhost:3000/api HTTP/1.1
+
+###
+POST http://localhost:3000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "wwwwwas",
+    "autor": "vanesa pes",
+    "edicion": 2
+}
+
+###
+DELETE http://localhost:3000/api/10 HTTP/1.1
+
+###
+PUT http://localhost:3000/api/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "Como ser um buen chef",
+    "autor": "sam vaz",
+    "edicion": 2
+}

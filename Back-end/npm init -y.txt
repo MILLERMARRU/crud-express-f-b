@@ -1,0 +1,17 @@
+npm init -y
+npm i  express ejs mysql nodemon
+npm i nodemon --save-dev
+
+npm i mysql2 express-myconnection
+
+npm install cors
+
+
+npm install mysql2   oficial
+
+
+npx nodemon app  localmente en el proyecto
+
+
+motor de pantilla ejs -> que es ?
+ 
